@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "jogador_input",
+    "maps": [
+        {
+            "name": "jogador",
+            "id": "44f9c5ad-a760-471e-ae37-aaf69886b6c8",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "Value",
+                    "id": "d3fc2715-b618-4aa2-9ac6-482bc9577a11",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "WS",
+                    "id": "2ebeccb3-a5ba-459c-9f53-beadf90b2bc0",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "4f7276e1-b576-48a5-8292-742ad65f6b72",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "5f45680d-82f9-4a7a-a0e7-a699b2f5a21b",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

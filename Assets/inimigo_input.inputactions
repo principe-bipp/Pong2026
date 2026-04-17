@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "inimigo_input",
+    "maps": [
+        {
+            "name": "inimigo",
+            "id": "7e3a5981-7887-43e8-892b-1771cae4c431",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "e4474ad0-8c2f-4ca2-8d63-9bcbe0c50b73",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "upDanw",
+                    "id": "017f2314-7c46-4460-86cf-5670b4d76dd6",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "a6750b0e-7b02-4ad4-bb06-6fb9698daa92",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "5c3a1f11-6512-4100-95ab-c68dc80e09d5",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
